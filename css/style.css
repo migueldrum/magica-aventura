@@ -8,7 +8,7 @@
 
 body{overflow-x:hidden;}
 h1,h2,h3,h4,h5,h6{}
-h4,h5,h6{color:#222;
+h4,h5,h6{color: #23587d;
 	font-family:"Open Sans",Arial,sans-serif;
 	font-weight:bold;
 }
@@ -102,7 +102,9 @@ section{
 	.nav-tabs>li>a{
 		font-weight:normal;
 	}
-	.tab-content>.tab-pane{padding:30px 0;}
+	.tab-content>.tab-pane{
+		padding:50px 0;
+	}
 #testimonials 
 	blockquote{
 		border:0;margin:0 50px;padding:0;
