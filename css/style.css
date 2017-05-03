@@ -113,8 +113,8 @@ section{
 	blockquote small{
 		color:#fff;font-size:100%;margin-top:15px;
 	}
-.gallery{display:table;list-style:none;padding:20px 0;}
-.gallery li{overflow:hidden;padding:0;position:relative;}
+.gallery{list-style:none;padding:20px 0; column-count: 3}
+.gallery li{overflow:hidden;padding:0;position:relative; display: inline-block !important;}
 .gallery img{width:100%;}
 .gallery div{background:rgba(0,0,0,0.3);display:none;height:100%;position:absolute;width:100%;}
 .gallery i{left:50%;margin:-21px 0 0 -17px;position:absolute;top:50%;}
